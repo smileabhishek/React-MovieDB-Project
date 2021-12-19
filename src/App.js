@@ -1,5 +1,6 @@
 import React from 'react';
-
+//styles
+import {GlobalStyles} from './GlobalStyles'
 function App() {
   return (
     <div className="App">
