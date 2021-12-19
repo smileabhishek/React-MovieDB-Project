@@ -1,12 +1,18 @@
-import React from 'react';
+import React from "react";
+
+//importing components
+import Header from "./components/Header";
+import Home from "./components/Home";
 //styles
-import {GlobalStyles} from './GlobalStyles'
+import { GlobalStyle } from "./GlobalStyle";
 function App() {
-  return (
-    <div className="App">
-      Start here.
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <Home />
+            <GlobalStyle />
+        </div>
+    );
 }
 
 export default App;

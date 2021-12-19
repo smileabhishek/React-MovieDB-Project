@@ -1,8 +1,7 @@
 import { createGlobalStyle, css } from "styled-components";
-export const GlobalStyle = /*css*/ 
-createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
 :root{
-    --maxwidth: 1280px;
+    --maxWidth: 1280px;
     --white: #fff;
     --lightGrey: #eee;
     --mediumGrey: #353535;
@@ -31,7 +30,6 @@ body{
     p{
         font-size:1rem;
         color:var(--white);
-
     }
 }
 
