@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+    align-items: center;
     max-width: var(--maxWidth);
-    margin: 0, auto;
+    margin: auto;
     padding: 0 20px;
+    margin-bottom: 20px;
+    /* background-color: #d8d8d8; */
 
     h1 {
         color: var(--mediumGrey);
